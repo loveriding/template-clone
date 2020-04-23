@@ -4,7 +4,7 @@
 
 A simple web clone. CSS PROJECT on CoderX.
 
-## Getting Lik Deploy
+## Getting Link Deploy
 
 https://webshop-clone.web.app/
 
@@ -40,4 +40,4 @@ This project is licensed under the MIT License
 
 * Hat tip to anyone whose code was used
 
-*Inspiration 
+* Inspiration 
