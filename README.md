@@ -1,12 +1,17 @@
+
+
 # Web-template
 
 A simple web clone. CSS PROJECT on CoderX.
 
-## Getting Started
+## Getting Lik Deploy
+
+https://webshop-clone.web.app/
 
 ### Prerequisites
 
 Have Browser app: Chrome, CocCoc, FireFox,...
+
 
 ### Installing
 One of Browser app: Chrome, CocCoc, FireFox,...
