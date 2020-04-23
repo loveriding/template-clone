@@ -1,0 +1,89 @@
+/*navbar-----------------------------------------------
+*/
+.header-navbar {
+  height: 9vh;
+  width: 100%;
+  display: flex;
+  font-size: 20px;
+  z-index: 2;
+  position: fixed;
+  color: white;
+  align-items: center;
+}
+
+.header-navbar__change-bg {
+  background-color: #FFF;
+  color: #000;
+  transition: .3s;
+}
+
+/*header-title-----------------------------------
+*/
+
+.header-navbar__title {
+  flex-basis: 34%;
+  cursor: pointer;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+/*header-icon--------------------------
+*/
+
+.header-navbar__icon-list {
+  flex-grow: 1;
+  text-align: right;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1em;
+}
+.header-navbar__icon-list > i {
+  padding-left: 1em;
+}
+
+/*Menu-toggle--------------------------------------------
+*/
+.menu-toggle {
+  display: inline-block;
+  cursor: pointer;
+  flex-basis: 33%;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-toggle__button {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 2em;
+  padding-left: 0.2em;
+
+}
+
+.bar1, .bar2, .bar3 {
+  width: 28px;
+  height: 4px;
+  margin: 2px 0;
+  background-color: #FFF;
+  transition: 0.4s;
+}
+
+.toggle-color {
+  background-color: #000;
+}
+
+
+.menu-toggle__change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 6px);
+  transform: rotate(-45deg) translate(-4px, 6px);
+}
+
+.menu-toggle__change .bar2 {opacity: 0;}
+
+.menu-toggle__change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}

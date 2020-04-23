@@ -1,0 +1,28 @@
+.home-promo1 {
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+         url('../images/home_promo.webp'); 
+}
+.home-promo2 {
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.6), 
+          rgba(0, 0, 0, 0.6)
+        ),
+         url('../images/A1_home_promo.webp'); 
+}
+
+.home-promo3 {
+  background:
+  linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url('../images/home_promo3.webp');
+  
+}
+
+.home-promo1,.home-promo2,.home-promo3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

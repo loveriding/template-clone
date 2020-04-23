@@ -1,0 +1,129 @@
+#sidebar {
+  font-size: 20px;
+  position:fixed;
+  top: 0;
+  width: 100vw;
+  left: -100vw;
+  height: 100vh;
+  background-color:#000;
+  color:#DDD;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%, 0% 100%);
+  transition: all .5s;
+  z-index: 1;
+}
+#sidebar nav ul li:hover {
+  cursor:pointer;
+} 
+
+#sidebar.show-sidebar {
+  left: 0px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: all .5s;
+}
+
+.sidebar-menu {
+  list-style-type: none;
+  font-size: 4em;
+}
+
+.sidebar-full {
+  display: flex;
+  width: 100%;
+}
+
+/*Login-Resigter*/
+
+.login-register {
+  display: flex;
+  padding-left: 2vw;
+}
+
+.login-register > * {
+  padding-left: 1.5vw;
+}
+
+.login-register a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+/*hover
+*/
+.link-hover__left-right {
+  text-decoration: none;
+  display: inline-block;
+  color: #EEE;
+}
+.sidebar-menu li a:hover {
+  font-size: 1.2em;
+  transition: .5s;
+  font-weight: 500;
+}
+.link-hover__left-right:after {
+  content: '';
+  display: block;
+  width: 0.8em;
+  height: 2px;
+  background : #FFF;
+  padding-left: 10px;
+}
+.link-hover__left-right:hover::after {
+  width: 100%;
+  transition: width .5s;
+}
+/*image hover in sidebar and change background sidebar
+*/
+
+.sidebar__image {
+  display: flex;
+}
+
+.sidebar__image-hover-show1 { 
+  background: url('../images/sidebar-speaker.jpg');
+}
+.sidebar__image-hover-show2 { 
+  background: url('../images/sidebar-headphone.jpg');
+}
+.sidebar__image-hover-show3 { 
+  background: url('../images/sidebar-television.jpg');
+}
+.sidebar__image-hover-show4 { 
+  background: url('../images/sidebar-access.jpg');
+}
+.sidebar__image-hover-show5 { 
+  background: url('../images/sidebar-stories.jpg');
+}
+
+.sidebar__image-hover-show1,
+.sidebar__image-hover-show2,
+.sidebar__image-hover-show3,
+.sidebar__image-hover-show4,
+.sidebar__image-hover-show5 {
+  width: 750px;
+  height: 400px;
+  animation-name: imageShow;
+  animation-duration: .5s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+@keyframes imageShow {
+  from {width: 0}
+}
+
+.sidebar1 {
+  background-color: #000 !important;
+}
+.sidebar2 {
+  background-color: #696262 !important;
+}
+.sidebar3 {
+  background-color: #a89fab !important;
+}
+.sidebar4 {
+  background-color: #C69076 !important;
+}
+.sidebar5 {
+  background-color: #AF6E51 !important;
+}

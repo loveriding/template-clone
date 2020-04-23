@@ -21,7 +21,7 @@ link clone: https://github.com/loveriding/template-clone.git
 
 And after it's all done you can run file 'index.html' on your browser!
 
-Refer bang-olufsen.com/en 
+Refer: bang-olufsen.com/en 
 
 ## Authors
 

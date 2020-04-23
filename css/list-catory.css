@@ -1,0 +1,39 @@
+.list-catory {
+	height: 70vh;
+	background-color: #FFF;
+	flex-grow: 1;
+}
+
+.list-catory__catory {
+	flex-basis: 30%;
+	margin: 1rem auto;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+}
+
+.list-catory__image img {
+	width: 80%;
+}
+
+.list-catory__title {
+	font-size: 2rem;
+	padding: 2rem 0 0 1.5rem;
+}
+.list-catory__image {
+	display: flex;
+	justify-content: center;
+}
+.list-catory__button {
+	width: 95%;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.list-catory__button div {
+	margin: auto 1rem ;
+}
+

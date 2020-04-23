@@ -1,0 +1,124 @@
+html,body {
+width: 100%;
+height: 100%;
+background-color: #FFF;
+margin: 0;
+border:none;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page {
+  width: 100%;
+  height: 100vh;
+  background-image:  linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ), url('../images/catory-home-speaker-hero.jpg');
+  position: relative;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-content {
+  width: 60%;
+  height: 25%;
+  font-size: 1.5rem;
+  display: flex;
+  color: #FFF;
+  font-weight: 500;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.homepage-content__catory {
+  flex-basis: 20%;
+  text-align: center;
+  color: #DDD;
+  text-decoration: none;
+}
+
+.homepage-content__catory:hover {
+  color: #FFF;
+  transform: scale(1.2);
+  transition: .5s;
+}
+
+.homepage-title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  margin: 0 auto;
+}
+
+.homepage-title__type1, .homepage-title__type2{
+  font-size: 1.3rem;
+  text-align: center;
+  color: #FFF;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+
+.homepage-title__type2 {
+  width: 40%;
+  font-size: 3rem;
+  margin: 0 auto;
+}
+.homepage-title__type3 {
+  width: 18vw;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 1.3rem;
+  border: 3px solid #FFF;
+  margin: 1.5rem auto;
+  display: flex;
+}
+.homepage-title__type3 div {
+  height: 100%;
+  flex-basis: 80%;
+  margin: auto 0;
+  padding-left: 1rem;
+}
+.fa-long-arrow-alt-right {
+  padding: 0.3rem;
+  font-size: 1.5rem;
+  
+}
+
+.homepage-title__type3:hover {
+  background-color: #FFF;
+  color: #000;
+  transition: all .3s;
+}
+
+.home-promo3 {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#container-navbar {
+  position: relative;
+  top: -9vh;
+}
+
+
+/* sideBar */
+
+
+
+
+
+

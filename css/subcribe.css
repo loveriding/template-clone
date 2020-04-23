@@ -1,0 +1,48 @@
+.subcribe {
+	height: 50vh;
+	background-color: #FFF;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	padding-top: 2rem;
+}
+
+.mail-icon img {
+	width: 5rem;
+	height: 5rem;
+}
+
+.subcribe-title {
+	font-weight: 600;
+	padding-top: 1rem;
+}
+.subcribe-info {
+	color: #666;
+	width: 40%;
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.subcribe-button a {
+	width: 16vw;
+  text-decoration: none;
+  color: #000;
+  font-weight: 550;
+  font-size: 1.3rem;
+  border: 3px solid #000;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.subcribe-button a:hover {
+	color: #FFF;
+	background-color: #000;
+	transition: .3s;
+}
+
+.subcribe-button__title {
+	display: flex;
+	align-items: center;
+}
